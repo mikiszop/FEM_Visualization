@@ -1,7 +1,7 @@
 import vtk
 import pyvista as pv
-
-f = open('odksztalcenie_Z.k')
+#Name of the .k or .txt data file with *NODE and *ELEMENT_SOLID sections
+f = open('file.k')
 
 uGrid = pv.UnstructuredGrid()
 points = vtk.vtkPoints()
